@@ -24,11 +24,11 @@ function Nav () {
                     </svg>
                 </Link>
 
-                {/* <ul className="nav-list">
+                <ul className="nav-list">
                     <li className="nav-link">
                         <Link href="/" className="site-link">Home</Link>
                     </li>
-                    <li className="nav-link has-subnav">
+                    {/* <li className="nav-link has-subnav">
                         <a href="" className="site-link has-subnav">
                             Solutions
                             <MdOutlineKeyboardArrowDown />
@@ -65,14 +65,14 @@ function Nav () {
                                 </Link>
                             </li>
                         </ul>
-                    </li>
-                    <li className="nav-link">
+                    </li> */}
+                    {/* <li className="nav-link">
                         <a href="" className="site-link">About Us</a>
-                    </li>
+                    </li> */}
                     <li className="nav-link">
-                        <Link href="#contact-section" className="site-link">Contact</Link>
+                        <Link href="/contact" className="site-link">Contact</Link>
                     </li>
-                </ul> */}
+                </ul>
                 <div className="nav-actions">
                     <button className="site-btn primary">Book a Call</button>
                 </div>

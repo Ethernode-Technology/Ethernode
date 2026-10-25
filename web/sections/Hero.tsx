@@ -23,7 +23,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="header-img">
-                <Image src={images.heroImage} alt="" />
+                <Image src={images.heroImage} alt="" loading='eager' />
             </div>
         </header>
     )
