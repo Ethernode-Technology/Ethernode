@@ -1,0 +1,123 @@
+nav {
+    height: 6rem;
+    padding: 0 2rem;
+    border-bottom: 1px solid var(--ethernode-neon);
+}
+
+.nav-container {
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container .site-logo {
+    width: 10rem;
+    height: min-content;
+}
+
+.nav-container .nav-list {
+    gap: 1rem;
+    left: 50%;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.nav-list .site-link.has-subnav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link.has-subnav {
+    position: relative;
+}
+
+.nav-list .site-link:hover {
+    color: #ffffff !important;
+}
+
+.nav-link.has-subnav > .sub-nav {
+    top: 2rem;
+    z-index: 99;
+    opacity: 0;
+    list-style: none;
+    visibility: hidden;
+    padding: .5rem;
+    position: absolute;
+    border-radius: var(--gbr);
+    background: linear-gradient(to bottom, #222222, #141414);
+    transition: .3s ease opacity,
+                .3s ease visibility;
+}
+
+.nav-link.has-subnav:hover  .sub-nav {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-link.has-subnav > .sub-nav.solutions {
+    gap: .25rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-nav .sub-nav-item {
+    min-width: 10rem;
+    border-radius: var(--gbr);
+    transition: .3s ease background-color;
+}
+
+.sub-nav .sub-nav-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: #4b4b4b5b;
+}
+
+.sub-nav .sub-nav-item a {
+    gap: .5rem;
+    display: flex;
+    font-size: .9rem;
+    color: #ffffff;
+    font-weight: 500;
+    align-items: center;
+    white-space: nowrap;
+    padding: .75rem .5rem;
+    text-decoration: none;
+    font-family: 'Geist';
+}
+
+.nav-link.has-subnav:hover .nav-link.has-subnav > .sub-nav{
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-list .site-link {
+    color: #ffffff;
+    font-size: .9rem;
+    font-weight: 500;
+    font-family: 'Geist';
+    display: flex;
+    align-items: center;
+}
+
+.nav-actions {
+    gap: 1rem;
+    display: flex;
+}
+
+@media screen and (max-width: 1366px) {
+    nav {
+        height: 4rem;
+    }
+    
+    .nav-container .site-logo {
+        width: 8rem;
+    }
+    
+    .nav-list .site-link {
+        font-size: 1rem;
+    }
+}

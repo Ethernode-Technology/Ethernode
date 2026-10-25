@@ -1,0 +1,79 @@
+#graphics {
+    margin: 10rem 0;
+}
+
+.graphics-container {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.graphics-header {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.graphics-header .site-heading {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.graphics-header .site-heading span {
+    color: var(--ethernode-neon);
+}
+
+
+.graphics-header .site-heading span.subtext {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Geist';
+    text-transform: capitalize;
+    color: var(--ethernode-purple);
+}
+
+.graphics-header .site-p {
+    width: 35%;
+    /* font-size: 1.2rem; */
+    color: #ffffff;
+    text-align: right;
+}
+
+.graphics-cards {
+    gap: 1rem;
+    height: 100%;
+    display: flex;
+}
+
+.graphics-card {
+    flex: 1;
+    height: 40rem;
+    position: relative;
+}
+
+.graphics-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1366px) {
+    .graphics-container {
+        max-width: none;
+        padding: 0 2rem;
+    }
+    
+    .graphics-header .site-heading {
+        font-size: 2.5rem;
+    }
+    
+    .graphics-header .site-p {
+        font-size: .9rem;
+    }
+    
+    .graphics-card {
+        height: 30rem;
+    }
+}

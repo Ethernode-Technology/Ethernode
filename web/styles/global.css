@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+:root {
+    --gbr: .25rem;
+    --primary-bg: #141414;
+    --secondary-bg: #222222;
+    --ethernode-neon: #7EC23B;
+    --ethernode-purple: #8A11C6;
+    --ethernode-glass: #ffffff30;
+    --border-glass: #ffffff35;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-heading {
+    font-weight: 700;
+    font-family: "Agdasima";
+}
+
+.site-p {
+    font-weight: 500;
+    font-family: "Geist";
+}
+
+.site-toast {
+    padding: .75rem .5rem;
+    background-color: #141414;
+    font-family: 'Geist' !important;
+    border: 1px solid var(--ethernode-neon);
+}
+
+.site-toast h2 {
+    color: var(--ethernode-neon);
+}
+
+.site-toast .site-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    color: var(--ethernode-purple) !important;
+}
+
+.site-badge {
+    color: white;
+    padding: 0 .5rem;
+    font-family: 'Geist';
+    border: 1px solid var(--ethernode-neon);
+}
+
+.site-link {
+    font-size: 1.1rem;
+    position: relative;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "Agdasima";
+    transition: .3s ease transform,
+                .3s ease color;
+}
+
+.site-link::after {
+    left: 0;
+    width: 100%;
+    content: '';
+    height: .1rem;
+    bottom: -.1rem;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    background-color: var(--ethernode-purple);
+    transition: .3s ease transform;
+}
+
+.site-link:hover {
+    color: var(--ethernode-neon) !important;
+}
+
+.site-link:hover::after {
+    transform: scaleX(100%);
+    transform-origin: left;
+}
+
+.site-btn {
+    width: 8rem;
+    border: none;
+    display: grid;
+    height: 2.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: .9rem;
+    place-content: center;
+    font-family: "Geist";    
+    border-radius: var(--gbr);
+    transition: .3s ease opacity;
+}
+
+.site-btn:hover {
+    opacity: .75;
+}
+
+.site-btn.primary {
+    color: #ffffff;
+    background-color: var(--ethernode-purple);
+}
+
+.site-btn.secondary {
+    color: var(--primary-bg);
+    background-color: var(--ethernode-neon);
+}
+
+.primary-fg {
+    color: var(--ethernode-purple);
+}
+
+.secondary-fg {
+    color: var(--ethernode-neon);
+}
+
+body {
+    background-color: #141414;
+    /* background: linear-gradient(to bottom, var(--primary-bg), var(--secondary-bg)); */
+    /* background-image: 
+        radial-gradient(circle, #7fc23b2c 1px, transparent 0);
+    
+    background-size: 20px 20px;
+    background-attachment: fixed; */
+}
+
+footer {
+    min-height: 60vh;
+    padding: 0 2rem;
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
+    background-color: var(--primary-bg);
+    border-top: 2px solid var(--ethernode-neon);
+}
+
+.footer-upper {
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
+.footer-upper,
+.footer-lower {
+    flex: 1;
+}
+
+.footer-onboarding {
+    width: 25%;
+}
+
+.footer-onboarding .site-p {
+    color: #ffffff50;
+    margin-bottom: 1rem;
+}
+
+.footer-upper .site-p span {
+    color: var(--ethernode-neon);
+}
+
+footer .contact-details {
+    gap: 2rem;
+    display: flex;
+}
+
+footer .contact-details > div {
+    display: flex;
+    text-align: right;
+    color: #ffffff50;
+    flex-direction: column;
+}
+
+.footer-bar {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-glass);
+}
+
+.footer-bar .site-logo {
+    width: 10rem;
+}
+
+footer .social-links {
+    gap: .5rem;
+    display: flex;
+    list-style: none;
+}
+
+footer .social-links li {
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    place-items: center;
+    background-color: #7EC23B;
+}
+
+footer .social-links li a {
+    display: grid;
+    color: #ffffff;
+    place-items: center;
+    transition: .2s ease color;
+}
+
+footer .social-links li a:hover {
+    color: var(--ethernode-purple);
+}
+
+.footer-bar .copyright {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 1366px) {
+    
+    .site-btn {
+        width: 8rem;
+        height: 2.5rem;
+        font-size: .9rem;
+    }
+    
+    footer {
+        padding: 0 2rem;
+    }
+    
+    .footer-bar {
+        height: 4rem;
+    }
+    
+    .footer-bar .site-logo {
+        width: 8rem;
+    }
+    
+    .footer-bar .copyright {
+        font-size: 1rem;
+    }
+    
+    .footer-onboarding .site-p,
+    footer .contact-details {
+        font-size: .8rem;
+    }
+}

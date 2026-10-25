@@ -1,0 +1,30 @@
+#design .hero {
+    height: 100dvh;
+    background: url('../assets/images/design-hero.jpg') center no-repeat;
+    background-size: cover;
+}
+
+#design .hero-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: #00000080;
+    justify-content: space-between;
+}
+
+#design .hero nav {
+    border-bottom: none;
+}
+
+#design .hero .site-heading {
+    color: #ffffff !important;
+    font-size: 10rem;
+    margin: 0 2rem;
+    /* text-transform: uppercase; */
+}
+
+#design .hero .site-heading span {
+    color: var(--ethernode-neon);
+    font-size: 5rem;
+    /* text-transform: uppercase; */
+}

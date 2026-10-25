@@ -1,0 +1,76 @@
+#hero {
+    min-height: 100vh;
+}
+
+#hero .header-content {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(50vh - 6rem);
+}
+
+#hero .header-content .site-heading {
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+#hero .header-content .site-heading span {
+    color: var(--ethernode-neon);
+}
+
+#hero .header-content .site-p {
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+#hero .header-content .site-p span {
+    color: var(--ethernode-neon)
+}
+
+#hero .header-actions {
+    gap: 1rem;
+    display: flex;
+    margin-top: .5rem;
+}
+
+#hero .header-img {
+    height: 60vh;
+    padding: 2rem;
+    position: relative;
+}
+
+#hero .header-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--gbr);
+
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+
+@media screen and (max-width: 1366px) {
+    
+    #hero .header-content .site-heading {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    #hero .header-content .site-p {
+        font-size: .8rem;
+    }
+    
+    #hero .header-content {
+        height: calc(50vh - 4rem);
+    }
+}

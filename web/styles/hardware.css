@@ -1,0 +1,29 @@
+#hardware .hero {
+    height: 100dvh;
+    background: url('../assets/images/hardware-hero.jpg') center no-repeat;
+    background-size: cover;
+}
+
+#hardware .hero-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#hardware .hero nav {
+    border-bottom: none;
+}
+
+#hardware .hero .site-heading {
+    color: #ffffff !important;
+    font-size: 10rem;
+    margin: 0 2rem;
+    /* text-transform: uppercase; */
+}
+
+#hardware .hero .site-heading span {
+    color: var(--ethernode-neon);
+    font-size: 5rem;
+    /* text-transform: uppercase; */
+}
