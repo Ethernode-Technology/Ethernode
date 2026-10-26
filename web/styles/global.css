@@ -285,3 +285,85 @@ footer .social-links li a:hover {
         font-size: .8rem;
     }
 }
+
+/* Responsive layout adjustments */
+@media screen and (max-width: 1024px) {
+    .footer-upper {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .footer-onboarding {
+        width: min(100%, 30rem);
+    }
+
+    footer .contact-details {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        min-height: auto;
+        margin-top: 6rem;
+        padding: 0 1.25rem;
+    }
+
+    .footer-upper {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .footer-onboarding {
+        width: 100%;
+    }
+
+    footer .contact-details {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    footer .contact-details > div {
+        text-align: left;
+    }
+
+    .footer-bar {
+        height: auto;
+        min-height: 4rem;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+    }
+
+    .footer-bar .site-logo {
+        width: 7rem;
+    }
+
+    .footer-bar .copyright {
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        padding: 0 1rem;
+    }
+
+    footer .contact-details {
+        flex-direction: column;
+    }
+
+    .footer-bar {
+        justify-content: center;
+    }
+
+    .footer-bar .copyright {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .social-links {
+        gap: .4rem;
+    }
+}

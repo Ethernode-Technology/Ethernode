@@ -28,3 +28,18 @@
     font-size: 5rem;
     /* text-transform: uppercase; */
 }
+
+@media screen and (max-width: 768px) {
+    #design .hero .site-heading {
+        margin: 0 1.25rem;
+    }
+
+    #design .hero .site-heading span {
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #design .hero .site-heading {
+        margin: 0 1rem;
+    }
+}

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Toaster } from "@/components/ui/toast"
+import "@/styles/contact.css";
+import "@/styles/nav.css";
 import "./globals.css";
 import StructuredData from "./structured-data";
 

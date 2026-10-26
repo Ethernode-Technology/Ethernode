@@ -77,3 +77,55 @@
         height: 30rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #graphics {
+        margin: 5rem 0;
+    }
+
+    .graphics-container {
+        padding: 0 1.25rem;
+    }
+
+    .graphics-header {
+        gap: 1rem;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .graphics-header .site-p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .graphics-cards {
+        flex-wrap: wrap;
+    }
+
+    .graphics-card {
+        flex: 1 1 calc(50% - .5rem);
+        height: 24rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #graphics {
+        margin: 4rem 0;
+    }
+
+    .graphics-container {
+        padding: 0 1rem;
+    }
+
+    .graphics-header .site-heading {
+    }
+
+    .graphics-cards {
+        flex-direction: column;
+    }
+
+    .graphics-card {
+        flex: none;
+        height: 20rem;
+    }
+}

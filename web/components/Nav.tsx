@@ -1,4 +1,3 @@
-import '../styles/nav.css'
 import Link from 'next/link';
 import { MdOutlineKeyboardArrowDown, MdAccountTree } from "react-icons/md";
 

@@ -188,3 +188,152 @@
         max-width: 100%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .onboarding-one-container {
+        gap: 2rem;
+        padding: 0 2rem;
+    }
+
+    #onboarding-one .onboarding-image {
+        width: 42%;
+        align-items: center;
+    }
+
+    #onboarding-one img {
+        width: 100%;
+    }
+
+    .promo30-container {
+        gap: 2rem;
+        padding: 3rem;
+        margin: 8rem 2rem;
+    }
+
+    #promo30 .site-heading {
+    }
+
+    .promo-actions {
+        width: 45%;
+    }
+
+    .choose-container {
+        flex-wrap: wrap;
+    }
+
+    #choose-us .choose-block {
+        flex: 1 1 50%;
+    }
+
+    #choose-us .choose-block:nth-child(2) {
+        border-right: 0;
+    }
+
+    #choose-us .choose-block:nth-child(-n + 2) {
+        border-bottom: 1px solid var(--ethernode-neon);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .onboarding-one-container {
+        gap: 2rem;
+        margin: 5rem auto;
+        padding: 0 1.25rem;
+        flex-direction: column;
+    }
+
+    #onboarding-one .onboarding-image {
+        width: 100%;
+        max-height: 22rem;
+        justify-content: center;
+    }
+
+    #onboarding-one img {
+        width: min(100%, 28rem);
+        height: auto;
+        max-height: 22rem;
+    }
+
+    #onboarding-one .text-content {
+        width: 100%;
+    }
+
+    #onboarding-one .text-content .site-heading {
+    }
+
+    #onboarding-one .text-content .site-heading br {
+        display: none;
+    }
+
+    #onboarding-one .text-content .site-p {
+        width: 100%;
+    }
+
+    .promo30-container {
+        gap: 2rem;
+        padding: 2rem;
+        margin: 5rem 1.25rem;
+        flex-direction: column;
+    }
+
+    #promo30 .site-heading {
+    }
+
+    #promo30 .site-heading br {
+        display: none;
+    }
+
+    .promo-actions {
+        width: 100%;
+    }
+
+    #promo30 .promo-actions .site-p {
+        width: 100%;
+    }
+
+    #choose-us {
+        padding: 0 1.25rem;
+    }
+
+    .choose-container {
+        flex-direction: column;
+    }
+
+    #choose-us .choose-block {
+        flex: 1 1 auto;
+        padding: 1.5rem;
+        border-right: 0 !important;
+    }
+
+    #choose-us .choose-block:not(:last-child) {
+        border-bottom: 1px solid var(--ethernode-neon);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .onboarding-one-container {
+        margin: 4rem auto;
+        padding: 0 1rem;
+    }
+
+    #onboarding-one .onboarding-one-actions {
+        gap: .75rem;
+        flex-wrap: wrap;
+    }
+
+    .promo30-container {
+        padding: 1.5rem;
+        margin: 4rem 1rem;
+    }
+
+    #promo30 .site-heading {
+    }
+
+    #choose-us {
+        padding: 0 1rem;
+    }
+
+    #choose-us .choose-block {
+        padding: 1.25rem;
+    }
+}

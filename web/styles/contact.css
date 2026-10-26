@@ -1,7 +1,7 @@
 #contact #contact-section {
     margin: 0;
     /* height: 100vh; */
-    padding-top: 10rem;
+    padding: 10rem 0;
 }
 
 #contact .hero nav {
@@ -145,5 +145,78 @@ form#contact .form-input textarea{
     
     .contact-container {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #contact-section header {
+        width: 40%;
+    }
+
+    form#contact {
+        gap: 1.5rem;
+    }
+
+    form#contact .form-input input,
+    form#contact .form-input textarea,
+    form#contact .form-input select {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact .hero {
+        height: 65vh;
+        min-height: 25rem;
+    }
+
+    #contact .hero .site-heading {
+        margin: 0 1.25rem;
+    }
+
+    #contact #contact-section {
+        padding: 4rem 1.25rem 0;
+    }
+
+    .contact-container {
+        gap: 2rem;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    #contact-section header {
+        width: 100%;
+    }
+
+    .contact-form {
+        height: auto;
+    }
+
+    form#contact {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #contact .hero {
+        height: 55vh;
+        min-height: 22rem;
+    }
+
+    #contact .hero .site-heading {
+        margin: 0 1rem;
+    }
+
+    #contact #contact-section {
+        padding: 3rem 1rem 0;
+    }
+
+    form#contact {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .form-input.submit {
+        align-items: stretch;
     }
 }
