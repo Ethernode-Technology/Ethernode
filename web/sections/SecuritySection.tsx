@@ -3,7 +3,7 @@
 import '../styles/security.css'
 import images from '@/utils/imports'
 import { Badge } from "@/components/ui/badge"
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 export default function SecuritySection () {
 
