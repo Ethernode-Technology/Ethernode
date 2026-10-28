@@ -227,6 +227,12 @@
     }
 
     #process .text-content .site-heading.main {
+        font-size: 2rem;
+        width: 70%;
+    }
+
+    .process-steps {
+        margin-top: 2rem;
     }
 
     .process-steps .step .site-p {

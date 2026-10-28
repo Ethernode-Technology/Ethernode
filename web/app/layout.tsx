@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
 
     description:
-        "Ethernode i a startup IT Company based in Johannesburg, South Africa delivering  the best web development, software engineering, graphic design, corporate identity design, and systems integration solutions for businesses.",
+        "Ethernode is a startup IT Company based in Johannesburg, South Africa delivering  the best web development, software engineering, graphic design, corporate identity design, and systems integration solutions for businesses.",
 
     applicationName: "Ethernode",
 

@@ -24,7 +24,7 @@ function Landing () {
                 <div className="promo30-container">
                     <div className="spot-backdrop"></div>
                     <h1 className="site-heading">
-                        30% off all software &<br />
+                        30% off all software & <br />
                         Web services <span>for a year</span>
                     </h1>
                     <div className="promo-actions">

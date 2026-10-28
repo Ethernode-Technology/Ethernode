@@ -11,7 +11,7 @@ export default function OnboardingOne() {
                 </div>
                 <div className="text-content">
                     <h2 className="site-heading">
-                        Engineers, Developers, & Technicians,<br />
+                        Engineers, Developers, & Technicians, <br />
                         All for the price of <span className='secondary-fg'>one employee</span>
                     </h2>
                     <p className="site-p">

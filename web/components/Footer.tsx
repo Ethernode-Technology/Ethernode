@@ -31,13 +31,10 @@ function Footer() {
                     </div>
                     <div className="address">
                         <p className="site-p">
-                            11 Tamboti Street
+                            4 Thistle Road
                         </p>
                         <p className="site-p">
-                            Birchleigh, Kempton Park
-                        </p>
-                        <p className="site-p">
-                            Johannesburg, Gauteng
+                            Kempton Park, Gauteng
                         </p>
                         <p className="site-p">
                             1618

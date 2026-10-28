@@ -11,8 +11,8 @@ export default function Web () {
                 <div className="text-content">
                     <h2 className="site-heading main">
                         <span className="subtext">Web Development</span>
-                        90% of potential clients will look<br /> 
-                        your business up online before<br />
+                        90% of potential clients will look <br className='no-mobile'/> 
+                        your business up online before <br className='no-mobile'/>
                         making any purchase from you...<br />
                         <span>Web Presence is Everything</span>
                     </h2>

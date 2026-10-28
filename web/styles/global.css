@@ -349,8 +349,13 @@ footer .social-links li a:hover {
         padding: 0 1rem;
     }
 
+    .footer-upper {
+        gap: 5rem;
+    }
+
     footer .contact-details {
-        flex-direction: column;
+        justify-content: space-between;
+        /* flex-direction: column; */
     }
 
     .footer-bar {

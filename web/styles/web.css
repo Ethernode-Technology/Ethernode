@@ -185,11 +185,16 @@
 }
 
 @media screen and (max-width: 480px) {
+    .no-mobile {
+        display: none;
+    }
+    
     .web-container {
         padding: 0 1rem;
     }
 
     #web .text-content .site-heading.main {
+        font-size: 2rem;
     }
 
     #web .text-content .actions {

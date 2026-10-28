@@ -117,15 +117,26 @@
         padding: 0 1rem;
     }
 
-    .graphics-header .site-heading {
+    .graphics-runway {
+        position: relative;
+    }
+
+    .graphics-pin {
+        top: 1rem;
+        position: sticky;
     }
 
     .graphics-cards {
-        flex-direction: column;
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        scroll-behavior: auto;
+        scrollbar-width: none;
     }
 
     .graphics-card {
-        flex: none;
-        height: 20rem;
+        min-width: 18rem;
+        flex-shrink: 0;
+        width: max-content;
     }
 }

@@ -199,6 +199,19 @@ form#contact .form-input textarea{
 }
 
 @media screen and (max-width: 480px) {
+
+    #contact-section {
+        padding: 0 1rem;
+    }
+
+    #contact-section header .site-heading {
+        font-size: 2.5rem;
+    }
+
+    #contact-section header .site-p {
+        font-size: .8rem;
+    }
+    
     #contact .hero {
         height: 55vh;
         min-height: 22rem;

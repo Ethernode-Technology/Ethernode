@@ -16,7 +16,7 @@ export default function Hero() {
                 </h1>
                 <p className="site-p">
                     An entire floor of expertly trained technicians & developers<br />
-                    <span>at your beck and call</span>
+                    <span> at your beck and call</span>
                 </p>
                 <div className="header-actions">
                     <button className="site-btn primary">Book a Call</button>

@@ -327,6 +327,21 @@
     }
 
     #promo30 .site-heading {
+        font-size: 2rem;
+    }
+
+    #promo30 .promo-actions .site-p {
+        font-size: 1rem;
+    }
+
+    #onboarding-one .text-content {
+        margin-top: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .onboarding-one-actions {
+        margin-top: 1rem;
     }
 
     #choose-us {

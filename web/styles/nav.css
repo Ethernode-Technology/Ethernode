@@ -178,6 +178,6 @@ nav {
     }
 
     .nav-container .nav-list {
-        justify-content: flex-start;
+        display: none;
     }
 }
