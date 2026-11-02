@@ -87,7 +87,7 @@ export default function Graphics () {
                                 Good Graphic Design & Corporate Identity<br />makes for a <span>memorable brand.</span>
                             </h2>
                             <p className="site-p">
-                                Your brand is more than a logo. Ethernode's graphic design
+                                Your brand is more than a logo. Ethernode Technology's graphic design
                                 and corporate identity services create a consistent visual
                                 identity across your website, marketing materials, social
                                 media, and business communications, ensuring your brand looks

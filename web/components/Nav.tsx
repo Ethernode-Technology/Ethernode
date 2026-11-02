@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { MdOutlineKeyboardArrowDown, MdAccountTree } from "react-icons/md";
+import { MdMenu } from "react-icons/md";
 
 function Nav () {
 
@@ -75,6 +75,9 @@ function Nav () {
                 <div className="nav-actions">
                     <button className="site-btn primary">Book a Call</button>
                 </div>
+                <button className="menu-toggle">
+                    < MdMenu />
+                </button>
             </div>
         </nav>
     )

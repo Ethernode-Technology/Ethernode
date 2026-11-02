@@ -15,9 +15,9 @@ export default function OnboardingOne() {
                         All for the price of <span className='secondary-fg'>one employee</span>
                     </h2>
                     <p className="site-p">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Sunt soluta commodi et! Impedit asperiores perferendis 
-                        cumque veniam ullam odio voluptates.
+                        Get a dedicated team of engineers, software developers, and technicians
+                        on a single flexible plan. Scale your projects, cut hiring costs, and
+                        access expert technical support without the overhead of a full in-house team.
                     </p>
                     <div className="onboarding-one-actions">
                         <button className="site-btn primary">

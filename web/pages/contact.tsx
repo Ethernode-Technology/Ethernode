@@ -6,22 +6,22 @@ import ContactSection from "@/sections/ContactSection";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact Ethernode to discuss web development, software engineering, graphic design, corporate identity design, and systems integration for your business.",
+    "Contact Ethernode Technology to discuss web development, software engineering, graphic design, corporate identity design, and systems integration for your business.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact Ethernode | Let's Discuss Your Project",
+    title: "Contact Ethernode Technology | Let's Discuss Your Project",
     description:
-      "Get in touch with Ethernode to discuss your next digital project, website, software solution, or design requirements.",
+      "Get in touch with Ethernode Technology to discuss your next digital project, website, software solution, or design requirements.",
     url: "/contact",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Ethernode | Let's Discuss Your Project",
+    title: "Contact Ethernode Technology | Let's Discuss Your Project",
     description:
-      "Discuss your next web development, software engineering, design, or IT project with Ethernode.",
+      "Discuss your next web development, software engineering, design, or IT project with Ethernode Technology.",
   },
 };
 

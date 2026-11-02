@@ -28,7 +28,7 @@ def contact(request):
 
     data = serializer.validated_data
 
-    subject = f"Ethernode contact enquiry: {data['project_need']}"
+    subject = f"Ethernode Technology contact enquiry: {data['project_need']}"
 
     message = "\n".join([
         f"Name: {data['name']}",
@@ -53,7 +53,7 @@ def contact(request):
             fail_silently=False,
         )
     except Exception:
-        logger.exception("Ethernode contact email delivery failed")
+        logger.exception("Ethernode Technology contact email delivery failed")
         return Response(
             {"detail": "Unable to send your enquiry right now."},
             status=status.HTTP_503_SERVICE_UNAVAILABLE,

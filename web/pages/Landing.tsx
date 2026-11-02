@@ -10,6 +10,7 @@ import Marquee from '../components/Marquee';
 import OnboardingOne from '../sections/OnboardingOne';
 import PartnersClients from '../components/PartnersClients';
 import Graphics from '../sections/Graphics';
+import Services from '@/sections/Services';
 import ContactSection from '../sections/ContactSection';
 import SecuritySection from '@/sections/SecuritySection';
 
@@ -77,13 +78,14 @@ function Landing () {
                         </h3>
                         <p className="site-p">
                             From initial concept and development to implementation and 
-                            ongoing maintenance, Ethernode provides technical 
+                            ongoing maintenance, Ethernode Technology provides technical 
                             support throughout your digital journey.
                         </p>
                     </div>
                 </div>
             </div>
             <SecuritySection />
+            <Services />
             <ContactSection />
         </main>
         <Footer />

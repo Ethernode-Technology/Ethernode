@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer-upper">
                 <div className="footer-onboarding">
                     <p className="site-p">
-                        <span>Ethernode</span> is a new-age tech startup helping South African 
+                        <span>Ethernode Technology</span> is a new-age tech startup helping South African 
                         companies integrate the business technologies they need 
                         to keep up with a rapidly evolving digital landscape.
                     </p>
@@ -63,7 +63,7 @@ function Footer() {
                     </svg>
                 </Link>
                 <h5 className="copyright site-heading">
-                    © ETHERNODE {presentYear}
+                    © ETHERNODE TECHNOLOGY {presentYear}
                 </h5>
                 <ul className="social-links">
                     <li>

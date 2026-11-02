@@ -15,7 +15,7 @@ export default function Process() {
 
                     <p className="site-p process-desc">
                         Your website, servers, and digital infrastructure should be
-                        working around the clock. Ethernode provides 24/7 uptime,
+                        working around the clock. Ethernode Technology provides 24/7 uptime,
                         performance, and infrastructure monitoring to detect
                         anomalies, identify downtime, and respond to technical
                         issues before they become costly disruptions.
@@ -70,7 +70,7 @@ export default function Process() {
                 <div className="process-img">
                     <Image
                         src={images.processDashboard3}
-                        alt="Ethernode infrastructure and website performance monitoring dashboard"
+                        alt="Ethernode Technology infrastructure and website performance monitoring dashboard"
                     />
                 </div>
             </div>

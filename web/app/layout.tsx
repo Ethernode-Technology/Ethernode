@@ -22,21 +22,21 @@ export const metadata: Metadata = {
 
     title: {
         default:
-            "Ethernode - Web Development, Software Engineering, Graphic Design, Security Systems, & IT Solutions",
-        template: "%s | Ethernode",
+            "Ethernode Technology - Web Development, Software Engineering, Graphic Design, Security Systems, & IT Solutions",
+        template: "%s | Ethernode Technology",
     },
 
     description:
-        "Ethernode is a startup IT Company based in Johannesburg, South Africa delivering  the best web development, software engineering, graphic design, corporate identity design, and systems integration solutions for businesses.",
+        "Ethernode Technology is a startup IT Company based in Johannesburg, South Africa delivering  the best web development, software engineering, graphic design, corporate identity design, and systems integration solutions for businesses.",
 
-    applicationName: "Ethernode",
+    applicationName: "Ethernode Technology",
 
     openGraph: {
         type: "website",
         url: "https://ethernode.tech/",
-        siteName: "Ethernode",
+        siteName: "Ethernode Technology",
         title:
-            "Ethernode - Web Development, Software Engineering, Graphic Design, Security Systems, & IT Solutions",
+            "Ethernode Technology - Web Development, Software Engineering, Graphic Design, Security Systems, & IT Solutions",
         description:
             "Web development, software engineering, graphic design, and integrated IT solutions for businesses.",
         locale: "en_ZA",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 
     twitter: {
         card: "summary_large_image",
-        title: "Ethernode | Web Development & IT Solutions",
+        title: "Ethernode Technology | Web Development & IT Solutions",
         description:
             "Web development, software engineering, graphic design, and systems integration for businesses.",
     },

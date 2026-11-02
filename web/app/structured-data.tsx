@@ -4,11 +4,11 @@ export default function StructuredData() {
         "@context": "https://schema.org",
         "@type": "Organization",
         "@id": "https://ethernode.tech/#organization",
-        name: "Ethernode",
+        name: "Ethernode Technology",
         url: "https://ethernode.tech/",
         email: "inquiries@ethernode.tech",
         description:
-            "Ethernode provides web development, software engineering, graphic design, corporate identity design, and systems integration services.",
+            "Ethernode Technology provides web development, software engineering, graphic design, corporate identity design, and systems integration services.",
         knowsAbout: [
             "Web Development",
             "Software Engineering",

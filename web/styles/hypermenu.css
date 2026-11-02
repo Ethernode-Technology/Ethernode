@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --gbr: .25rem;
+    --body-font: Geist;
+    --primary-bg: #141414;
+    --secondary-bg: #222222;
+    --ethernode-neon: #7EC23B;
+}
+
+.hm-heading {
+    font-family: Agdasima;
+}
+
+.hm-body {
+    font-family: Geist;
+}
+
+#hypermenu {
+    padding: 2rem;
+    height: 100vh;
+    margin: 10rem 0;
+    max-height: 100vh;
+    background-color: var(--primary-bg);
+}
+
+#hypermenu .container {
+    gap: 1rem;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+#hypermenu #sidebar {
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--gbr);
+    justify-content: space-between;
+    border: 1px solid var(--ethernode-neon);
+}
+
+#hypermenu #sidebar .hm-heading {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+#hypermenu #sidebar .hm-body {
+    font-size: .9rem;
+    color: #ffffff;
+}
+
+#hypermenu #sidebar .sidebar-tabs {
+    gap: .5rem;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+#hypermenu #sidebar .sidebar-tabs li {
+    padding: 1rem;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    border-radius: var(--gbr);
+    font-family: var(--body-font);
+    border: 1px solid transparent;
+    background-color: var(--secondary-bg);
+}
+
+#hypermenu #sidebar .sidebar-tabs li.active {
+    border: 1px solid var(--ethernode-neon);
+}
+
+#hypermenu-slides .slide {
+    padding: 1rem;
+    border-radius: var(--gbr);
+    background-color: var(--secondary-bg);
+    /* border: 1px solid var(--ethernode-neon); */
+}
+
+#hypermenu-slides {
+    flex: 1;
+    gap: 1rem;
+    display: grid;
+    grid-template-rowa: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#hypermenu-slides .slide .hm-heading {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#hypermenu-slides .slide .hm-body {
+    color: #ffffff;
+}
