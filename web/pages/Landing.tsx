@@ -85,7 +85,7 @@ function Landing () {
                 </div>
             </div>
             <SecuritySection />
-            <Services />
+            {/* <Services /> */}
             <ContactSection />
         </main>
         <Footer />
